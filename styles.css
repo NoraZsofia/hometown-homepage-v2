@@ -1,0 +1,175 @@
+
+/* 
+CSS HEX 
+--pale-cerulean: #9cbddcff;
+--cardinal: #bb3337ff;
+--spanish-bistre: #81824eff;
+--spanish-gray: #979ea0ff;
+--feldgrau: #4a5b4aff;
+
+CSS HSL 
+--pale-cerulean: hsla(209, 48%, 74%, 1);
+--cardinal: hsla(358, 57%, 47%, 1);
+--spanish-bistre: hsla(61, 25%, 41%, 1);
+--spanish-gray: hsla(193, 5%, 61%, 1);
+--feldgrau: hsla(120, 10%, 32%, 1);
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #4A5B4A;
+}
+
+/*img {
+   width: 240px;
+  height: 200px;   
+}*/
+
+#hero-section {
+    margin: 0;
+    padding: 0;
+    background-image: url(https://www.artatsite.com/Amsterdam/images/beelden/groot/Reus_Paul_de_Familie_Theo_van_Goghpark_beelden_statues_sculptures_kunst_Art_at_Site_Amsterdam.jpg);
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #18150F;
+}
+
+
+h1, h2 {
+    background-color: rgba(151, 158, 161, 0.285);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 60px;
+    padding: 10px 15px 2px;
+    color: #18150f;
+    text-shadow: 1px 1px 1px #659987;
+}
+
+h2 { 
+    font-style: italic;
+    width: 650px;
+    font-size: 35px;
+    padding: 10px 15px 2px;
+    color: #18150f;
+    text-shadow: 1px 1px 2px #9cbddcff;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    padding: 40px;
+    padding-bottom: 20px;
+    color: #9cbddcff;
+    font-size: 28px;
+    margin:0;
+}
+
+.bg-color {
+    background-color: #4A5B4A;
+}
+
+.image {
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    text-align: center;
+}
+
+#activities-section{
+    padding: 20px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #4A5B4A;
+}
+
+.activities {
+    border-radius: 20px;
+    width: 320px;
+    margin: 10px 10px 20px;
+    padding: 20px;
+    background-color: #4A5B4A;
+    color: #9cbddcff;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    transition-duration: 3s;
+}
+
+.activities:hover {
+    box-shadow: -3px -3px 3px #659987;
+    background-color: #9cbddcff;
+    color:#18150F;
+}
+
+.activities h4 {
+    font-size: 25px;;
+    padding-top: 20px;
+}
+
+#img-sport {
+    background-image: url(https://www.belevenissen.nl/files/public/photo/product/1290/0-1219162135.big.jpg);
+    
+}
+
+#img-art {
+    background-image: url(https://www.e-architect.com/wp-content/uploads/2016/12/sluishuis-ijburg-building-amsterdam-b140722-o6.jpg);
+    
+}
+
+#img-creativity {
+    background-image: url(https://image.jimcdn.com/app/cms/image/transf/none/path/sf59c3d8f9bb7d3bd/image/i8d79ea85ee52586c/version/1522316424/image.jpg); 
+}
+
+#guide-section {
+    width: 400px;
+    height: 180px;
+    margin: 20px auto 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    color: #18150F;
+    background: linear-gradient(125deg, #9cbddcff 25%, #bb3337ff 15%, #81824eff, #979ea0ff 30%, #4a5b4aff);
+    border-radius: 20px;
+} 
+
+#guide-avatar {
+    width: 110px;
+    height: 120px;
+    padding: 10px;
+    border 0 solid black;
+    border-top-right-radius: 50%;
+}
+
+.guide-info {
+    margin: auto;
+    text-align: left;
+    padding: 0 10px;
+    text-shadow: 1px 1px .5px #9cbddcff;
+}
+
+#guide-title {
+    color: #18150F;
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
+    margin:0;
+    padding: 10;
+}
+
